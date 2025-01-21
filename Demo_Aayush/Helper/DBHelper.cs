@@ -1,7 +1,7 @@
 ﻿using Microsoft.Data.SqlClient;
 using System.Data;
 
-namespace Demo_code
+namespace Demo_Aayush
 {
     public class DBHelper : IDBHelper
     {

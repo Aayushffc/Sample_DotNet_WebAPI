@@ -192,3 +192,22 @@ BEGIN CATCH
     SELECT ERROR_MESSAGE() AS [Error]
 END CATCH
 GO
+/**************************************************************************************
+PROCEDURE NAME  : sp_GetEmployeeDepartment
+CREATED BY      : Aayush
+CREATED DATE    : ---
+DESCRIPTION     : Retrieves the department for a specific employee by their EmployeeId.
+**************************************************************************************/
+CREATE OR ALTER PROCEDURE [dbo].[sp_GetEmployeeDepartment]
+    @EmployeeId INT
+AS
+BEGIN TRY
+    SELECT d.[Id] AS DepartmentId, d.[Name] AS DepartmentName
+    FROM [dbo].[Departments] d
+    INNER JOIN [dbo].[Employees] e ON e.DepartmentId = d.Id
+    WHERE e.Id = @EmployeeId
+END TRY
+BEGIN CATCH
+    SELECT ERROR_MESSAGE() AS [Error]
+END CATCH
+GO

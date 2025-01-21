@@ -1,4 +1,4 @@
-﻿namespace Demo_code
+﻿namespace Demo_Aayush
 {
     public interface IDBHelper
     {
