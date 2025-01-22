@@ -1,4 +1,6 @@
-﻿namespace Demo_Aayush
+﻿using Demo_Aayush.DTOs;
+
+namespace Demo_Aayush.Helper
 {
     public interface IDBHelper
     {

@@ -1,7 +1,8 @@
-﻿using Microsoft.Data.SqlClient;
+﻿using Demo_Aayush.DTOs;
+using Microsoft.Data.SqlClient;
 using System.Data;
 
-namespace Demo_Aayush
+namespace Demo_Aayush.Helper
 {
     public class DBHelper : IDBHelper
     {
@@ -374,8 +375,8 @@ namespace Demo_Aayush
                                 Message = "Employee department retrieved successfully.",
                                 Data = new DTO_Department
                                 {
-                                    Id = reader.GetInt32("Id"),
-                                    Name = reader.GetString("Name")
+                                    Id = reader.GetInt32("DepartmentId"),
+                                    Name = reader.GetString("DepartmentName")
                                 }
                             };
                         }

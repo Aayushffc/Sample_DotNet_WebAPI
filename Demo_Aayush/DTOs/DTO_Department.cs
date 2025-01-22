@@ -1,4 +1,4 @@
-﻿namespace Demo_Aayush
+﻿namespace Demo_Aayush.DTOs
 {
     public class DTO_Department
     {

@@ -1,6 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Demo_Aayush.Models;
+using Microsoft.EntityFrameworkCore;
 
-namespace Demo_Aayush
+namespace Demo_Aayush.DBContext
 {
     public class AppDBContext : DbContext
     {

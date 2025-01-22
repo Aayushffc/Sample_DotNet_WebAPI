@@ -1,4 +1,4 @@
-﻿namespace Demo_Aayush
+﻿namespace Demo_Aayush.Models
 {
     public class Employee
     {
