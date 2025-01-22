@@ -15,6 +15,7 @@ A simple .NET Web API for managing employees and departments in an organization.
 2. Install SQL Server
 3. Install Visual Studio
 
+### Installation
 1. Clone the repository:
    git clone https://github.com/Aayushffc/Sample_DotNet_WebAPI.git
    cd employee-management-api
