@@ -20,7 +20,7 @@ namespace Demo_Aayush.Controllers
         /// </summary>
         /// <returns>A list of all employees.</returns>
         [HttpGet("GetAllEmployees")]
-        public async Task<IActionResult> GetAllEmployees()
+        public async Task<IActionResult> GetAllEmployees() 
         {
             var response = await _dbHelper.GetAllEmployeesAsync();
 

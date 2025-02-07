@@ -6,7 +6,7 @@ CREATED DATE    : ---
 DESCRIPTION     : Retrieves all employee records from the Employees table.
 **************************************************************************************/
 CREATE OR ALTER PROCEDURE [dbo].[sp_GetAllEmployees]
-AS
+AS 
 BEGIN TRY
     SELECT [Id], [Name], [DepartmentId], [Salary], [DateOfJoining]
     FROM [dbo].[Employees]

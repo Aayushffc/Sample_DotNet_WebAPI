@@ -8,7 +8,7 @@ namespace Demo_Aayush.Helper
     {
         private readonly string _connectionString;
 
-        public DBHelper(IConfiguration configuration)
+        public DBHelper(IConfiguration configuration) 
         {
             _connectionString = configuration.GetConnectionString("DefaultConnection");
         }

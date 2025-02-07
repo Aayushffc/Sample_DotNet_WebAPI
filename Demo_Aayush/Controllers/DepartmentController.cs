@@ -27,7 +27,7 @@ namespace Demo_Aayush.Controllers
             if (response.Status.Contains("Error", StringComparison.OrdinalIgnoreCase))
                 return StatusCode(response.StatusCode, new { response.Status, response.Message });
 
-            return Ok(new { response.Status, response.Message, response.Data });
+            return Ok(new { response.Status, response.Message, response.Data }); 
         }
 
         /// <summary>

@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Demo_Aayush.Migrations
 {
-    /// <inheritdoc />
+    /// <inheritdoc /> 
     public partial class InitialCreate : Migration
     {
         /// <inheritdoc />
